@@ -1,0 +1,12 @@
+
+
+
+<div class="container-fluid">
+        <div
+              *ngFor="let flashCard of flashCards; let idx=index"
+              (swipeleft)="swipe(idx, $event.type)" (swiperight)="swipe(idx, $event.type)" 
+              [class.visible]="flashCard.visible" [class.hidden]="!flashCard.visible">
+
+              <h2 class="header text-center">{{flashCard.question}}</h2>
+        </div>
+</div>
