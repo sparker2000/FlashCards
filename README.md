@@ -1,5 +1,14 @@
 # FlashCards
 
+I decided to build a simple flash cards app.  The inspiration for this app came from wanting to teach my toddler new things.  I don't really want to go to the store and buy new flash cards for a given subject.  I also don't really want to download an app on my phone that requires me to swim through ads for simple behavior.
+
+ToDo:
+  - Allow a user to create and save a new deck of cards.
+  - Change swiping functionality for single cards.  Swipe left for cards with answers.  Swipe up/down for new cards.
+  - Integrate text to speech functionality.  Studies show that some people are auditory learners while others are visual.
+  - Integrate voice input functionality. Chime if user answer is correct.  Buzz if answer is incorrect.
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
 ## Development server
